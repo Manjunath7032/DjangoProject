@@ -6,4 +6,4 @@ def myView(request):
     s=student.objects.all()
     print(type(s))
     d={'stud':s}
-    return render(request,'myApp/1.html',d)
+    return render(request,'myApp/1.html',d).
